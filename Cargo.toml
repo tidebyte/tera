@@ -1,0 +1,13 @@
+[workspace]
+
+members = [
+    "client",
+    "server"
+]
+
+[profile.release]
+debug = true
+lto = 'thin'
+
+[profile.bench]
+debug = true
